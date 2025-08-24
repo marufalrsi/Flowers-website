@@ -50,6 +50,7 @@ background-image: url(./assets/news-letter-bg.png);
 background-repeat: no-repeat;
 justify-content: center;
 text-align: center;
+background-size: 100% auto;
 }
 .part-5{
     display: grid;
@@ -227,4 +228,34 @@ margin-left: -186px
 }
 .margin-top{
   margin-top: 32px;
+}
+@media screen and (max-width:786px) {
+  .display{
+    display: none;
+  }
+  .no-revflex{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .no-flex{
+    display: flex;
+    flex-direction: column;
+  }
+  .sdmax-width{
+    width: 100%;
+    margin: auto;
+  }
+  .part-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    row-gap: 45px; 
+}
+.part-5{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); 
+    row-gap: 15px; 
+}
+ .imgwidth{
+  background-size: 100% auto;
+ }
 }
