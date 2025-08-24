@@ -101,3 +101,43 @@ figure{
 .background{
     background-color: #F5F8FF;
 }
+a{
+    text-decoration: none;
+}
+/*font section*/
+
+.inter-reg {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400px;
+  font-style: normal;
+  font-size:1rem;
+}
+.inter-22-reg {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400px;
+  font-style: normal;
+  font-size:1.375rem;
+}
+.inter-22-mid {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:medium;
+  font-style: normal;
+  font-size:1.375rem;
+}
+.inter-22-bold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:bold;
+  font-style: normal;
+  font-size:1.375rem;
+}
+.inter-28-smibold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:600pc;
+  font-style: normal;
+  font-size:1.375rem;
+}
