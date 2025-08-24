@@ -45,12 +45,14 @@ margin-left: 400px;
     z-index: -1;
 }
 .part-6{
-height: 533px;    
+height: 600px;    
 background-image: url(./assets/news-letter-bg.png);
 background-repeat: no-repeat;
 justify-content: center;
 text-align: center;
-background-size: 100% auto;
+    width: 100%;
+    background-size: cover; 
+    background-position: center; 
 }
 .part-5{
     display: grid;
@@ -174,7 +176,7 @@ margin-left: -186px
 .noto-serif-bold-64{
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
-  font-weight:700;
+  font-weight:800px;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -250,12 +252,50 @@ margin-left: -186px
     grid-template-columns: repeat(2, 1fr); 
     row-gap: 45px; 
 }
-.part-5{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr); 
-    row-gap: 15px; 
+.figure-1,.figure-2,.figure-3{
+  height: 180px;
+  padding: 0px;
 }
- .imgwidth{
-  background-size: 100% auto;
- }
+ .part-6 {
+    width: 100%;
+    height: 500px;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+ .part-6 input{
+width: 415px;
+height: 50px;
+ border: none;
+}
+.part-6 button{
+width: 100px;
+height: 55px;
+border-radius: 0px;
+border: none;
+background-color: orange;
+margin-left: -100px
+}
+.part-3, .part-4, .part-5,.part-6, .footer-section,.sub-part-3, .banner{
+  margin-top: 50px;
+}
+.noto-serif-bold-20-sm{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  font-size: 1.25rem;
+}
+.inter-16-smibold-sm {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:600pc;
+  font-style: normal;
+  font-size:1rem;
+}
+.part-5 .figure-1{
+    padding: 0px 0px;
 }
