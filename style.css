@@ -141,3 +141,47 @@ a{
   font-style: normal;
   font-size:1.375rem;
 }
+
+.noto-serif-bold-64{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight:bold;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  font-size: 4.06rem;
+}
+.noto-serif-bold-50{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight:bold;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  font-size: 3.125rem;
+}
+.noto-serif-bold-40{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight:bold;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  font-size: 2.5rem;
+}
+.noto-serif-bold-20{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight:bold;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  font-size: 1.25rem;
+}
+/*color section*/
+.gray{
+    color: rgba(0, 0, 0, 0.5);
+}
+.orange{
+    color: rgba(233, 90, 8, 1);
+}
